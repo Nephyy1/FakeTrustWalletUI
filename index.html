@@ -34,7 +34,7 @@
                 <section class="mx-4 mt-0 p-6 bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl shadow-lg text-white">
                     <div class="text-center relative">
                         <div class="flex justify-center items-center gap-2">
-                            <h1 id="balanceAmount" class="text-4xl font-bold tracking-tight">Rp12.500.000</h1>
+                            <h1 id="balanceAmount" class="text-4xl font-bold tracking-tight">Rp21.500.000</h1>
                             <button id="toggleBalance" class="p-1 hover:bg-white/20 rounded-full transition">
                                 <svg id="eyeOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/>
@@ -207,7 +207,7 @@
         
         toggleBalance.addEventListener('click', () => {
             isBalanceVisible = !isBalanceVisible
-            balanceAmount.textContent = isBalanceVisible ? 'Rp12.500.000' : '••••••••'
+            balanceAmount.textContent = isBalanceVisible ? 'Rp21.500.000' : '••••••••'
             eyeOpen.classList.toggle('hidden')
             eyeClosed.classList.toggle('hidden')
         })
